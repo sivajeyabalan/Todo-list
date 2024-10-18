@@ -1,0 +1,18 @@
+/* src/style.css */
+
+#app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#project-list, #todo-list {
+  margin: 10px 0;
+}
+#projects, #todos {
+  list-style: none;
+  padding: 0;
+}
+#projects li, #todos li {
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
