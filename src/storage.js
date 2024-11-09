@@ -1,11 +1,11 @@
 // src/storage.js
-
-function saveToLocalStorage(key, data) {
-  localStorage.setItem(key, JSON.stringify(data));
+let n = 1
+function saveToLocalStorage(n, data) {
+  localStorage.setItem(n, JSON.stringify(data));
 }
 
-function loadFromLocalStorage(key) {
-  const data = localStorage.getItem(key);
+function loadFromLocalStorage(n) {
+  const data = localStorage.getItem(1);
   return data ? JSON.parse(data) : null;
 }
 
